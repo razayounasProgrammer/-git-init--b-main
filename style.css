@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 600;
+    color:white;
+    font-family:'Poppins',sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.form .section{
+    margin-top: 20px;
+    box-shadow: 14px 7px 14px lightgray;
+    
+}
+
+.form .section .section-one{
+    background: lightseagreen;       
+    min-height: 600px;
+}
+
+.form .section .icon{
+    font-size: 2.275rem;
+    position: relative;
+    top:12px;   
+    left: 14px;
+}
+
+.form .section .not{
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+
+.form .section .section-one .button{
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
+
+.form .section .main-btn{
+    background: none;    
+    padding: 12px;    
+    color: white;
+    margin-top: 20px;
+    width: 230px;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-weight: 600;
+
+}
+
+.form .title{
+    color: lightseagreen;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.form .section-two .title{
+    margin-top: 60px;    
+    text-align: center;
+}
+
+.form .section-two .bx{
+    color: gray;
+    font-size: 1.75rem;
+    margin-right: 14px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 32px;
+}
+
+.form .section .section-two .description{
+    color: lightslategray;    
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form .section .section-two .field{
+    height: 50px;
+    outline: none;    
+    border: 1px solid lightseagreen;
+    border-radius: 23px;
+    color: lightseagreen; 
+    font-weight: 600; 
+    margin: auto;
+    width: 80%; 
+}
+
+.form .section .section-two .button-two{
+    text-align: center;   
+}
+
+.form .section .section-two .main-btn-login{
+    background: lightseagreen;
+    padding: 12px;    
+    color: white;
+    margin-top: 20px;
+    width: 230px;
+    border: 1px solid white;
+    border-radius: 32px;
+    font-weight: 600;
+
+}
+
